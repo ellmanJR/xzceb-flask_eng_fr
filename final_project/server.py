@@ -10,7 +10,7 @@ def english_to_french():
     return translator.english_to_french(textToTranslate)
 
 @app.route("/french_to_english")
-def frenchToEnglish():
+def french_to_english():
     textToTranslate = request.args.get('textToTranslate')
     return translator.french_to_english(textToTranslate)
 
